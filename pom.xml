@@ -115,7 +115,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>vivek187/${project.artifactId}:v2</name>
+                        <name>vivek187/${project.artifactId}:v3</name>
                     </image>
                     <excludes>
                         <exclude>
