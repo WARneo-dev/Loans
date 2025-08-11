@@ -33,7 +33,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(path = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
 @AllArgsConstructor
-@Validated
 public class LoansController {
 
     private static final Logger logger = LoggerFactory.getLogger(LoansController.class);
